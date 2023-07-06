@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "cs210-hw2"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "cs210_hw2"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.3"
+pandas = "^2.0.1"
+bs4 = "^0.0.1"
+requests = "^2.30.0"
+ipykernel = "^6.23.0"
+matplotlib = "^3.7.1"
+dateparser = "^1.1.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
